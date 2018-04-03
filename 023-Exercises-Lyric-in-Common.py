@@ -8,7 +8,7 @@ for l1 in text1:
         if l1.upper() == l2.upper():
             new_list.append(l1)
 
-if len(new_list) > 0:
+if new_list:
     print('letras em comum {} '.format(''.join(new_list)))
 else:
     print('nenhuma letra em comum')
