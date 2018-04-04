@@ -5,9 +5,7 @@ today = date.today()
 
 print(today)
 
-today_has_text = today.strftime('%d/%m/%Y')
-print(today_has_text)
+print(today.strftime('%d/%m/%Y'))
 
 date_time = datetime.now()
-date_time_has_text = date_time.strftime('%d/%m/%Y')
-print(date_time)
+print(date_time.strftime('%d/%m/%Y'))
