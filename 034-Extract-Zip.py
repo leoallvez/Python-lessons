@@ -3,7 +3,7 @@ import zipfile
 import sys
 
 
-def main(path):
+def main(path='C:/Users/Leonardo/PycharmProjects/python-first-steps/saida.zip'):
     if not os.path.exists(path):
         print('Arquivo {} não existe'.format(path))
         sys.exit(-1)
@@ -14,4 +14,4 @@ def main(path):
 
 
 if __name__ == "__main__":
-    main('C:/Users/Leonardo/PycharmProjects/python-first-steps/saida.zip')
+    main()
